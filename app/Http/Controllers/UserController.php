@@ -33,7 +33,7 @@ class UserController extends Controller
      */
      public function info($id)
      {
-        $product = Product::query()
+        $product = User::query()
             ->where(['id' => $id])
             ->first();
 
