@@ -1,3 +1,8 @@
+![rhf](https://ltdfoto.ru/images/RISUNOK1.png)
+![rhf](https://ltdfoto.ru/images/RISUNOK2.png)
+![rhf](https://ltdfoto.ru/images/RISUNOK3.png)
+![rhf](https://ltdfoto.ru/images/RISUNOK4.png)
+
 # frontend
 
 ## Project setup
