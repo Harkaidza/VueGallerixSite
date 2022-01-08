@@ -27,10 +27,11 @@
 
 <script>
 
+import CartInfo from "./CartInfo";
 export default {
   name: "Header",
-  //components: {CartInfo},
-  data() {
+    components: {CartInfo},
+    data() {
       return{
           searchInfo: null
       }
