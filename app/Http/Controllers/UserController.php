@@ -33,8 +33,15 @@ class UserController extends Controller
      */
      public function info($id)
      {
-         $this->init();
-         return  $this->arr[$id-1];
+        $product = Product::query()
+            ->where(['id' => $id])
+            ->first();
+
+        if ($product === null) {
+            throw new NotFoundHttpException('Товар не найден');
+        }
+
+        return $product;
      }
 
      public function authorization(Request $request)
